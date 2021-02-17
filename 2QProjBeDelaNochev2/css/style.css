@@ -1,0 +1,305 @@
+body {
+	background-color: #fff1e6;
+	<!--This is the background-color for the whole webpage-->
+	}
+
+	
+.navi{
+	position: fixed;
+	margin-top: 150px;
+	float: left;
+	z-index: 5;
+	<!--This is the position for the navigation links-->
+}
+
+ul {
+	list-style-type: none;	
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-left: 27px;
+}
+
+li {
+	padding-bottom: 80px;	
+}
+	
+#home{
+	width: 50px;
+	height: 50px;
+	<!--This is the size of the home navigation-->
+}
+
+#home:hover{
+	transform:scale(1.5);
+	<!--This is the transform of the home navigation-->
+}
+
+#what{
+	width: 50px;
+	height: 50px;
+	<!--This is the size of the what navigation-->
+}
+
+#what:hover{
+	transform:scale(1.5);
+	<!--This is the transform of the what navigation-->
+}
+
+#author{
+	width: 50px;
+	height: 50px;
+	<!--This is the size of the author navigation-->
+}
+
+#author:hover{
+	transform:scale(1.5);
+	<!--This is the transform of the author navigation-->	
+}
+
+#junk{
+	width: 50px;
+	height: 50px;
+	<!--This is the size of the junk navigation-->
+}
+
+#junk:hover{
+	transform:scale(1.5);
+	<!--This is the transform of the junk navigation-->
+}	
+					
+#target { 
+	float: right;
+	z-index: 5;
+	position: fixed;
+	width: 100px;
+	height: 100px;	
+	<!--This is the position of the logo-->	
+}
+					
+#atl {
+	color: black;
+	font-size: 80px;
+	font-family: Bebas Neue;
+	z-index: 1;
+	position: absolute;
+	top: -70px;
+	left: 200px;
+	<!--This is the position of the title-->
+}
+
+	
+h1 {
+	font-family: source sans pro;
+	text-decoration: none;
+	font-size: 50px;
+	text-align: center;
+	float: right; 
+	margin-top: 95px;
+	margin-right: 300px;
+	<!--This is the position of the header-->
+}
+	
+#anti {
+	font-size: 20px;
+	width: 400px;
+	float: right; 
+	margin-top: -10px;
+	margin-right: 820px;
+	<!--This is the position for the first content->
+}
+	
+#signed {
+	font-family: calibri;
+	font-size: 40px;
+	position: absolute;
+	top: 740px;
+	right: 60px;
+	<!--This is the position for the second content->
+}
+			
+#effect {
+	font-family: calibri;
+	font-size: 40px;
+	position: absolute;
+	top: 800px;
+	right: 60px;
+	<!--This is the position for the third content->
+}
+	
+#tuta {
+	position: absolute;
+	top: 270px;
+	float: right; 
+	margin-top: -50px;
+	margin-left: 550px;
+	<!--This is the position for the first picture-->
+}
+	
+#cry {
+	position: absolute;
+	width: 400px;
+	float: right; 
+	margin-top: 620px;
+	margin-left: 120px;
+	<!--This is the position for the second picture-->
+}
+	
+#cartoon {
+	font-size: 10px;
+	float: right; 
+	margin-top: 300px;
+	margin-right: 820px;
+	<!--This is the position for the source-->
+}
+
+#title {
+	font-family: monospace;
+	color: black;	
+	text-decoration: none;
+	font-size: 20px;
+	text-decoration: none;
+	float: left;
+	margin-top: 377px;
+	margin-left: 200px;
+	<!--This is the position of the lower title-->
+}
+	
+#copy {
+	font-family: monospace;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	float: left;
+	margin-top: 1025px;
+	margin-left: 200px;
+	<!--This is the position of copyright-->
+}				
+	
+#learn {
+	font-family: monospace;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	float: left;
+	margin-top: 55px;
+	margin-left: 200px;
+	<!--This is the position of learn more-->
+	}
+		
+#learn:visited{
+	color: purple;
+	}
+		
+#learn:hover {
+	color: purple;
+}
+	
+#learn:active{
+	color: purple;
+}
+		
+#terms {
+	font-family: monospace;
+	color: black;
+	text-decoration: none;	
+	font-size: 20px;
+	float: left;
+	margin-top: 90px;	
+	margin-left: -110px;
+	<!--This is the position of terms and conditions-->
+}
+		
+#terms:visited{
+	color: purple;
+}
+	
+#terms:hover {
+	color: purple;
+}
+	
+#terms:active{
+	color: purple;
+}
+	
+#privacy {
+	font-family: monospace;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	float: left;
+	margin-top: -70px;
+	margin-left: 900px;
+	<!--This is the position of privacy-->
+}
+	
+#privacy:visited{
+	color: purple;
+}
+		
+#privacy:hover {
+	color: purple;
+}
+	
+#privacy:active{
+	color: purple;
+}
+	
+.sprite {
+	background: url('../images/icon.png') no-repeat -182px -91px;
+	width: 33px;
+	height: 33px;
+	float: left;
+	margin-top: -35px;
+	margin-left: 900px;
+	<!--This is the position of the first sprite-->
+}
+	
+.sprite:hover{
+	background: url('../images/icon.png') no-repeat -182px -17px;
+	width: 33px;
+	height: 33px;
+	float: left;
+	margin-top: -35px;
+	margin-left: 900px;
+}
+			
+.sprite2 {
+	background: url('../images/icon.png') no-repeat -296px -91px;
+	width: 33px;
+	height: 33px;
+	float: left;
+	margin-top: -35px;
+	margin-left: 940px;
+	<!--This is the position of the second sprite-->
+}
+	
+.sprite2:hover{
+	background: url('../images/icon.png') no-repeat -296px -17px;
+	width: 33px;
+	height: 33px;
+	float: left;
+	margin-top: -35px;
+	margin-left: 940px;
+}
+			
+.sprite3{
+	background: url('../images/icon.png') no-repeat -10px -91px;
+	width: 33px;
+	height: 33px;
+	float: left;
+	margin-top: -35px;
+	margin-left: 980px;
+	<!--This is the position of the third sprite-->
+}
+	
+.sprite3:hover{
+	background: url('../images/icon.png') no-repeat -10px -17px;
+	width: 33px;
+	height: 33px;
+	float: left;
+	margin-top: -35px;
+	margin-left: 980px;
+}
+					
